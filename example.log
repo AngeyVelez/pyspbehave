@@ -1,0 +1,14 @@
+DEBUG:parse:format 'que el usuario está en la página principal de Google' -> 'que el usuario está en la página principal de Google'
+DEBUG:parse:format 'el usuario busca "{query}"' -> 'el usuario busca "(?P<query>.+?)"'
+DEBUG:parse:format 'el usuario debería ver resultados de búsqueda' -> 'el usuario debería ver resultados de búsqueda'
+INFO:root:Starting scenario: Realizar una búsqueda en Google
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario appears from behind the backdrop!
+INFO:screenpy:Usuario searches Google for "Screenplay Pattern"
+INFO:screenpy:    Usuario enters "Screenplay Pattern" into the Google search bar.
+INFO:screenpy:        then hits the ENTER key
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Google search results]
+INFO:root:Ending scenario: Realizar una búsqueda en Google
