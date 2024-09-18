@@ -5,6 +5,8 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 import logging
 
+from features.steps.login_steps import step_given_launch_login
+
 # Setup logging
 logging.basicConfig(level=logging.DEBUG, filename="example.log")
 

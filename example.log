@@ -379,3 +379,2037 @@ INFO:screenpy:    Usuario clicks on the Login button.
 INFO:screenpy:Usuario reads the URL from their browser.
 INFO:screenpy:    => 'https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index'
 INFO:root:Ending scenario: Successful login with valid credentials
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add User" section' -> 'I navigate to the "Add User" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the user form with the following details:' -> 'I fill out the user form with the following details:'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the user was added successfully' -> 'I should see a confirmation message that the user was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:WebDriver version 128.0.6613.137 selected
+INFO:WDM:Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/128.0.6613.137/win32/chromedriver-win32.zip
+INFO:WDM:About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/128.0.6613.137/win32/chromedriver-win32.zip
+INFO:WDM:Driver downloading response is 200
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver has been saved in cache [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137]
+INFO:screenpy:Usuario hears their cue!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+ERROR:screenpy:    ***ERROR***
+
+TargetingError: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//ul/li/a[@href='/recruitment/']"}
+  (Session info: chrome=128.0.6613.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00AFD933+25811]
+	(No symbol) [0x00A8E314]
+	(No symbol) [0x00982523]
+	(No symbol) [0x009C7483]
+	(No symbol) [0x009C765B]
+	(No symbol) [0x00A06BA2]
+	(No symbol) [0x009EAD74]
+	(No symbol) [0x00A046F0]
+	(No symbol) [0x009EAAC6]
+	(No symbol) [0x009BBEFD]
+	(No symbol) [0x009BC8FD]
+	GetHandleVerifier [0x00DCF143+2981091]
+	GetHandleVerifier [0x00E22FF9+3324825]
+	GetHandleVerifier [0x00B8B32F+605903]
+	GetHandleVerifier [0x00B92CBC+637020]
+	(No symbol) [0x00A96F4D]
+	(No symbol) [0x00A93DD8]
+	(No symbol) [0x00A93F75]
+	(No symbol) [0x00A86406]
+	BaseThreadInitThunk [0x760A7BA9+25]
+	RtlInitializeExceptionChain [0x7754C11B+107]
+	RtlClearBits [0x7754C09F+191]
+ raised while trying to find Sidebar option.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add User" section' -> 'I navigate to the "Add User" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the user form with the following details:' -> 'I fill out the user form with the following details:'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the user was added successfully' -> 'I should see a confirmation message that the user was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, stage right!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+ERROR:screenpy:    ***ERROR***
+
+TargetingError: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//ul/li/a[@href='/recruitment/']"}
+  (Session info: chrome=128.0.6613.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00AFD933+25811]
+	(No symbol) [0x00A8E314]
+	(No symbol) [0x00982523]
+	(No symbol) [0x009C7483]
+	(No symbol) [0x009C765B]
+	(No symbol) [0x00A06BA2]
+	(No symbol) [0x009EAD74]
+	(No symbol) [0x00A046F0]
+	(No symbol) [0x009EAAC6]
+	(No symbol) [0x009BBEFD]
+	(No symbol) [0x009BC8FD]
+	GetHandleVerifier [0x00DCF143+2981091]
+	GetHandleVerifier [0x00E22FF9+3324825]
+	GetHandleVerifier [0x00B8B32F+605903]
+	GetHandleVerifier [0x00B92CBC+637020]
+	(No symbol) [0x00A96F4D]
+	(No symbol) [0x00A93DD8]
+	(No symbol) [0x00A93F75]
+	(No symbol) [0x00A86406]
+	BaseThreadInitThunk [0x760A7BA9+25]
+	RtlInitializeExceptionChain [0x7754C11B+107]
+	RtlClearBits [0x7754C09F+191]
+ raised while trying to find Sidebar option.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add User" section' -> 'I navigate to the "Add User" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the user form with the following details:' -> 'I fill out the user form with the following details:'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the user was added successfully' -> 'I should see a confirmation message that the user was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, stage left!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario reads the URL from their browser.
+INFO:screenpy:    => 'https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index'
+INFO:screenpy:Usuario clicks on the Sidebar option.
+ERROR:screenpy:    ***ERROR***
+
+TargetingError: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//ul/li/a[contains(@href, '/recruitment/')]"}
+  (Session info: chrome=128.0.6613.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00AFD933+25811]
+	(No symbol) [0x00A8E314]
+	(No symbol) [0x00982523]
+	(No symbol) [0x009C7483]
+	(No symbol) [0x009C765B]
+	(No symbol) [0x00A06BA2]
+	(No symbol) [0x009EAD74]
+	(No symbol) [0x00A046F0]
+	(No symbol) [0x009EAAC6]
+	(No symbol) [0x009BBEFD]
+	(No symbol) [0x009BC8FD]
+	GetHandleVerifier [0x00DCF143+2981091]
+	GetHandleVerifier [0x00E22FF9+3324825]
+	GetHandleVerifier [0x00B8B32F+605903]
+	GetHandleVerifier [0x00B92CBC+637020]
+	(No symbol) [0x00A96F4D]
+	(No symbol) [0x00A93DD8]
+	(No symbol) [0x00A93F75]
+	(No symbol) [0x00A86406]
+	BaseThreadInitThunk [0x760A7BA9+25]
+	RtlInitializeExceptionChain [0x7754C11B+107]
+	RtlClearBits [0x7754C09F+191]
+ raised while trying to find Sidebar option.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add User" section' -> 'I navigate to the "Add User" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the user form with the following details:' -> 'I fill out the user form with the following details:'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the user was added successfully' -> 'I should see a confirmation message that the user was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, on a wire!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario reads the URL from their browser.
+INFO:screenpy:    => 'https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index'
+INFO:screenpy:Usuario clicks on the Sidebar option.
+ERROR:screenpy:    ***ERROR***
+
+TargetingError: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//ul/li/a[contains(@href,'/recruitment/')]"}
+  (Session info: chrome=128.0.6613.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00AFD933+25811]
+	(No symbol) [0x00A8E314]
+	(No symbol) [0x00982523]
+	(No symbol) [0x009C7483]
+	(No symbol) [0x009C765B]
+	(No symbol) [0x00A06BA2]
+	(No symbol) [0x009EAD74]
+	(No symbol) [0x00A046F0]
+	(No symbol) [0x009EAAC6]
+	(No symbol) [0x009BBEFD]
+	(No symbol) [0x009BC8FD]
+	GetHandleVerifier [0x00DCF143+2981091]
+	GetHandleVerifier [0x00E22FF9+3324825]
+	GetHandleVerifier [0x00B8B32F+605903]
+	GetHandleVerifier [0x00B92CBC+637020]
+	(No symbol) [0x00A96F4D]
+	(No symbol) [0x00A93DD8]
+	(No symbol) [0x00A93F75]
+	(No symbol) [0x00A86406]
+	BaseThreadInitThunk [0x760A7BA9+25]
+	RtlInitializeExceptionChain [0x7754C11B+107]
+	RtlClearBits [0x7754C09F+191]
+ raised while trying to find Sidebar option.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add User" section' -> 'I navigate to the "Add User" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the user form with the following details:' -> 'I fill out the user form with the following details:'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the user was added successfully' -> 'I should see a confirmation message that the user was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The spotlight shines on Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+ERROR:screenpy:    ***ERROR***
+
+TargetingError: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//ul/li/a[contains(@href,'/recruitment/')]"}
+  (Session info: chrome=128.0.6613.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00AFD933+25811]
+	(No symbol) [0x00A8E314]
+	(No symbol) [0x00982523]
+	(No symbol) [0x009C7483]
+	(No symbol) [0x009C765B]
+	(No symbol) [0x00A06BA2]
+	(No symbol) [0x009EAD74]
+	(No symbol) [0x00A046F0]
+	(No symbol) [0x009EAAC6]
+	(No symbol) [0x009BBEFD]
+	(No symbol) [0x009BC8FD]
+	GetHandleVerifier [0x00DCF143+2981091]
+	GetHandleVerifier [0x00E22FF9+3324825]
+	GetHandleVerifier [0x00B8B32F+605903]
+	GetHandleVerifier [0x00B92CBC+637020]
+	(No symbol) [0x00A96F4D]
+	(No symbol) [0x00A93DD8]
+	(No symbol) [0x00A93F75]
+	(No symbol) [0x00A86406]
+	BaseThreadInitThunk [0x760A7BA9+25]
+	RtlInitializeExceptionChain [0x7754C11B+107]
+	RtlClearBits [0x7754C09F+191]
+ raised while trying to find Sidebar option.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add User" section' -> 'I navigate to the "Add User" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the user form with the following details:' -> 'I fill out the user form with the following details:'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the user was added successfully' -> 'I should see a confirmation message that the user was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, from the vomitorium!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+ERROR:screenpy:    ***ERROR***
+
+TargetingError: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button/i[contains(@class, 'bi-plus')]"}
+  (Session info: chrome=128.0.6613.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0062D933+25811]
+	(No symbol) [0x005BE314]
+	(No symbol) [0x004B2523]
+	(No symbol) [0x004F7483]
+	(No symbol) [0x004F765B]
+	(No symbol) [0x00536BA2]
+	(No symbol) [0x0051AD74]
+	(No symbol) [0x005346F0]
+	(No symbol) [0x0051AAC6]
+	(No symbol) [0x004EBEFD]
+	(No symbol) [0x004EC8FD]
+	GetHandleVerifier [0x008FF143+2981091]
+	GetHandleVerifier [0x00952FF9+3324825]
+	GetHandleVerifier [0x006BB32F+605903]
+	GetHandleVerifier [0x006C2CBC+637020]
+	(No symbol) [0x005C6F4D]
+	(No symbol) [0x005C3DD8]
+	(No symbol) [0x005C3F75]
+	(No symbol) [0x005B6406]
+	BaseThreadInitThunk [0x760A7BA9+25]
+	RtlInitializeExceptionChain [0x7754C11B+107]
+	RtlClearBits [0x7754C09F+191]
+ raised while trying to find Add candidate button.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add User" section' -> 'I navigate to the "Add User" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the user form with the following details:' -> 'I fill out the user form with the following details:'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the user was added successfully' -> 'I should see a confirmation message that the user was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario hears their cue!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add User" section' -> 'I navigate to the "Add User" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the user form with the following details:' -> 'I fill out the user form with the following details:'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the user was added successfully' -> 'I should see a confirmation message that the user was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The camera jump-cuts to Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add User" section' -> 'I navigate to the "Add User" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the user form with the following details:' -> 'I fill out the user form with the following details:'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the user was added successfully' -> 'I should see a confirmation message that the user was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, on a wire!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add User" section' -> 'I navigate to the "Add User" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the user form with the following details:' -> 'I fill out the user form with the following details:'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the user was added successfully' -> 'I should see a confirmation message that the user was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The spotlight shines on Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add User" section' -> 'I navigate to the "Add User" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the user form with the following details:' -> 'I fill out the user form with the following details:'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the user was added successfully' -> 'I should see a confirmation message that the user was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The spotlight shines on Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add User" section' -> 'I navigate to the "Add User" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the user form with the following details:' -> 'I fill out the user form with the following details:'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the user was added successfully' -> 'I should see a confirmation message that the user was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The camera jump-cuts to Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details:' -> 'I fill out the candidate form with the following details:'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, stage left!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details:' -> 'I fill out the candidate form with the following details:'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The curtain rises to reveal Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details:' -> 'I fill out the candidate form with the following details:'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The spotlight shines on Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details:' -> 'I fill out the candidate form with the following details:'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The spotlight shines on Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+ERROR:screenpy:    ***ERROR***
+
+TargetingError: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button/i[contains(@class, 'bi-plus')]"}
+  (Session info: chrome=128.0.6613.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0062D933+25811]
+	(No symbol) [0x005BE314]
+	(No symbol) [0x004B2523]
+	(No symbol) [0x004F7483]
+	(No symbol) [0x004F765B]
+	(No symbol) [0x00536BA2]
+	(No symbol) [0x0051AD74]
+	(No symbol) [0x005346F0]
+	(No symbol) [0x0051AAC6]
+	(No symbol) [0x004EBEFD]
+	(No symbol) [0x004EC8FD]
+	GetHandleVerifier [0x008FF143+2981091]
+	GetHandleVerifier [0x00952FF9+3324825]
+	GetHandleVerifier [0x006BB32F+605903]
+	GetHandleVerifier [0x006C2CBC+637020]
+	(No symbol) [0x005C6F4D]
+	(No symbol) [0x005C3DD8]
+	(No symbol) [0x005C3F75]
+	(No symbol) [0x005B6406]
+	BaseThreadInitThunk [0x760A7BA9+25]
+	RtlInitializeExceptionChain [0x7754C11B+107]
+	RtlClearBits [0x7754C09F+191]
+ raised while trying to find Add candidate button.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details:' -> 'I fill out the candidate form with the following details:'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario appears from behind the backdrop!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details:' -> 'I fill out the candidate form with the following details:'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The curtain rises to reveal Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, stage right!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email
+INFO:screenpy:    Usuario clicks on the Sidebar option.
+INFO:screenpy:    Usuario clicks on the Add candidate button.
+ERROR:screenpy:        ***ERROR***
+
+TargetingError: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button/i[contains(@class, 'bi-plus')]"}
+  (Session info: chrome=128.0.6613.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0062D933+25811]
+	(No symbol) [0x005BE314]
+	(No symbol) [0x004B2523]
+	(No symbol) [0x004F7483]
+	(No symbol) [0x004F765B]
+	(No symbol) [0x00536BA2]
+	(No symbol) [0x0051AD74]
+	(No symbol) [0x005346F0]
+	(No symbol) [0x0051AAC6]
+	(No symbol) [0x004EBEFD]
+	(No symbol) [0x004EC8FD]
+	GetHandleVerifier [0x008FF143+2981091]
+	GetHandleVerifier [0x00952FF9+3324825]
+	GetHandleVerifier [0x006BB32F+605903]
+	GetHandleVerifier [0x006C2CBC+637020]
+	(No symbol) [0x005C6F4D]
+	(No symbol) [0x005C3DD8]
+	(No symbol) [0x005C3F75]
+	(No symbol) [0x005B6406]
+	BaseThreadInitThunk [0x760A7BA9+25]
+	RtlInitializeExceptionChain [0x7754C11B+107]
+	RtlClearBits [0x7754C09F+191]
+ raised while trying to find Add candidate button.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario makes their debut!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email
+INFO:screenpy:    Usuario clicks on the Sidebar option.
+INFO:screenpy:    Usuario clicks on the Add candidate button.
+ERROR:screenpy:        ***ERROR***
+
+TargetingError: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button/i[contains(@class, 'bi-plus')]"}
+  (Session info: chrome=128.0.6613.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00E2D933+25811]
+	(No symbol) [0x00DBE314]
+	(No symbol) [0x00CB2523]
+	(No symbol) [0x00CF7483]
+	(No symbol) [0x00CF765B]
+	(No symbol) [0x00D36BA2]
+	(No symbol) [0x00D1AD74]
+	(No symbol) [0x00D346F0]
+	(No symbol) [0x00D1AAC6]
+	(No symbol) [0x00CEBEFD]
+	(No symbol) [0x00CEC8FD]
+	GetHandleVerifier [0x010FF143+2981091]
+	GetHandleVerifier [0x01152FF9+3324825]
+	GetHandleVerifier [0x00EBB32F+605903]
+	GetHandleVerifier [0x00EC2CBC+637020]
+	(No symbol) [0x00DC6F4D]
+	(No symbol) [0x00DC3DD8]
+	(No symbol) [0x00DC3F75]
+	(No symbol) [0x00DB6406]
+	BaseThreadInitThunk [0x760A7BA9+25]
+	RtlInitializeExceptionChain [0x7754C11B+107]
+	RtlClearBits [0x7754C09F+191]
+ raised while trying to find Add candidate button.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, from the vomitorium!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email
+INFO:screenpy:    Usuario clicks on the Sidebar option.
+INFO:screenpy:    Usuario clicks on the Add candidate button.
+ERROR:screenpy:        ***ERROR***
+
+TargetingError: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button/i[contains(@class, 'bi-plus')]"}
+  (Session info: chrome=128.0.6613.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00E2D933+25811]
+	(No symbol) [0x00DBE314]
+	(No symbol) [0x00CB2523]
+	(No symbol) [0x00CF7483]
+	(No symbol) [0x00CF765B]
+	(No symbol) [0x00D36BA2]
+	(No symbol) [0x00D1AD74]
+	(No symbol) [0x00D346F0]
+	(No symbol) [0x00D1AAC6]
+	(No symbol) [0x00CEBEFD]
+	(No symbol) [0x00CEC8FD]
+	GetHandleVerifier [0x010FF143+2981091]
+	GetHandleVerifier [0x01152FF9+3324825]
+	GetHandleVerifier [0x00EBB32F+605903]
+	GetHandleVerifier [0x00EC2CBC+637020]
+	(No symbol) [0x00DC6F4D]
+	(No symbol) [0x00DC3DD8]
+	(No symbol) [0x00DC3F75]
+	(No symbol) [0x00DB6406]
+	BaseThreadInitThunk [0x760A7BA9+25]
+	RtlInitializeExceptionChain [0x7754C11B+107]
+	RtlClearBits [0x7754C09F+191]
+ raised while trying to find Add candidate button.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The camera jump-cuts to Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Carlos" into the Full name field.
+INFO:screenpy:    Usuario enters "Rodriguez" into the Lst Name field.
+ERROR:screenpy:        ***ERROR***
+
+TargetingError: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='lastName']"}
+  (Session info: chrome=128.0.6613.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00E2D933+25811]
+	(No symbol) [0x00DBE314]
+	(No symbol) [0x00CB2523]
+	(No symbol) [0x00CF7483]
+	(No symbol) [0x00CF765B]
+	(No symbol) [0x00D36BA2]
+	(No symbol) [0x00D1AD74]
+	(No symbol) [0x00D346F0]
+	(No symbol) [0x00D1AAC6]
+	(No symbol) [0x00CEBEFD]
+	(No symbol) [0x00CEC8FD]
+	GetHandleVerifier [0x010FF143+2981091]
+	GetHandleVerifier [0x01152FF9+3324825]
+	GetHandleVerifier [0x00EBB32F+605903]
+	GetHandleVerifier [0x00EC2CBC+637020]
+	(No symbol) [0x00DC6F4D]
+	(No symbol) [0x00DC3DD8]
+	(No symbol) [0x00DC3F75]
+	(No symbol) [0x00DB6406]
+	BaseThreadInitThunk [0x760A7BA9+25]
+	RtlInitializeExceptionChain [0x7754C11B+107]
+	RtlClearBits [0x7754C09F+191]
+ raised while trying to find Lst Name field.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, on a wire!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Carlos" into the Full name field.
+INFO:screenpy:    Usuario enters "Rodriguez" into the Lst Name field.
+INFO:screenpy:    Usuario enters "carlos@correo.com" into the Email field.
+ERROR:screenpy:        ***ERROR***
+
+TargetingError: Message: invalid selector
+from javascript error: {"status":32,"value":"The result of the xpath expression \"/\" is: [object HTMLDocument]. It should be an element."}
+  (Session info: chrome=128.0.6613.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x00E2D933+25811]
+	(No symbol) [0x00DBE314]
+	(No symbol) [0x00CB2523]
+	(No symbol) [0x00CB80A4]
+	(No symbol) [0x00CB9988]
+	(No symbol) [0x00CB9A00]
+	(No symbol) [0x00CF70F5]
+	(No symbol) [0x00CF765B]
+	(No symbol) [0x00D36BA2]
+	(No symbol) [0x00D1AD74]
+	(No symbol) [0x00D346F0]
+	(No symbol) [0x00D1AAC6]
+	(No symbol) [0x00CEBEFD]
+	(No symbol) [0x00CEC8FD]
+	GetHandleVerifier [0x010FF143+2981091]
+	GetHandleVerifier [0x01152FF9+3324825]
+	GetHandleVerifier [0x00EBB32F+605903]
+	GetHandleVerifier [0x00EC2CBC+637020]
+	(No symbol) [0x00DC6F4D]
+	(No symbol) [0x00DC3DD8]
+	(No symbol) [0x00DC3F75]
+	(No symbol) [0x00DB6406]
+	BaseThreadInitThunk [0x760A7BA9+25]
+	RtlInitializeExceptionChain [0x7754C11B+107]
+	RtlClearBits [0x7754C09F+191]
+ raised while trying to find Email field.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, from the vomitorium!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Carlos" into the Full name field.
+INFO:screenpy:    Usuario enters "Rodriguez" into the Lst Name field.
+INFO:screenpy:    Usuario enters "carlos@correo.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Save candidate button.
+INFO:screenpy:Usuario clicks on the Save candidate button.
+ERROR:screenpy:    ***ERROR***
+
+TargetingError: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='submit']"}
+  (Session info: chrome=128.0.6613.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00E2D933+25811]
+	(No symbol) [0x00DBE314]
+	(No symbol) [0x00CB2523]
+	(No symbol) [0x00CF7483]
+	(No symbol) [0x00CF765B]
+	(No symbol) [0x00D36BA2]
+	(No symbol) [0x00D1AD74]
+	(No symbol) [0x00D346F0]
+	(No symbol) [0x00D1AAC6]
+	(No symbol) [0x00CEBEFD]
+	(No symbol) [0x00CEC8FD]
+	GetHandleVerifier [0x010FF143+2981091]
+	GetHandleVerifier [0x01152FF9+3324825]
+	GetHandleVerifier [0x00EBB32F+605903]
+	GetHandleVerifier [0x00EC2CBC+637020]
+	(No symbol) [0x00DC6F4D]
+	(No symbol) [0x00DC3DD8]
+	(No symbol) [0x00DC3F75]
+	(No symbol) [0x00DB6406]
+	BaseThreadInitThunk [0x760A7BA9+25]
+	RtlInitializeExceptionChain [0x7754C11B+107]
+	RtlClearBits [0x7754C09F+191]
+ raised while trying to find Save candidate button.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario makes their debut!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Carlos" into the Full name field.
+INFO:screenpy:    Usuario enters "Rodriguez" into the Lst Name field.
+INFO:screenpy:    Usuario enters "carlos@correo.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Save candidate button.
+INFO:screenpy:Usuario clicks on the Save candidate button.
+ERROR:screenpy:    ***ERROR***
+
+TargetingError: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='submit']"}
+  (Session info: chrome=128.0.6613.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00E2D933+25811]
+	(No symbol) [0x00DBE314]
+	(No symbol) [0x00CB2523]
+	(No symbol) [0x00CF7483]
+	(No symbol) [0x00CF765B]
+	(No symbol) [0x00D36BA2]
+	(No symbol) [0x00D1AD74]
+	(No symbol) [0x00D346F0]
+	(No symbol) [0x00D1AAC6]
+	(No symbol) [0x00CEBEFD]
+	(No symbol) [0x00CEC8FD]
+	GetHandleVerifier [0x010FF143+2981091]
+	GetHandleVerifier [0x01152FF9+3324825]
+	GetHandleVerifier [0x00EBB32F+605903]
+	GetHandleVerifier [0x00EC2CBC+637020]
+	(No symbol) [0x00DC6F4D]
+	(No symbol) [0x00DC3DD8]
+	(No symbol) [0x00DC3F75]
+	(No symbol) [0x00DB6406]
+	BaseThreadInitThunk [0x760A7BA9+25]
+	RtlInitializeExceptionChain [0x7754C11B+107]
+	RtlClearBits [0x7754C09F+191]
+ raised while trying to find Save candidate button.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario gets over their stagefright!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Carlos" into the Full name field.
+INFO:screenpy:    Usuario enters "Rodriguez" into the Lst Name field.
+INFO:screenpy:    Usuario enters "carlos@correo.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Save candidate button.
+INFO:screenpy:Usuario clicks on the Save candidate button.
+ERROR:screenpy:    ***ERROR***
+
+TargetingError: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='submit']"}
+  (Session info: chrome=128.0.6613.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0086D933+25811]
+	(No symbol) [0x007FE314]
+	(No symbol) [0x006F2523]
+	(No symbol) [0x00737483]
+	(No symbol) [0x0073765B]
+	(No symbol) [0x00776BA2]
+	(No symbol) [0x0075AD74]
+	(No symbol) [0x007746F0]
+	(No symbol) [0x0075AAC6]
+	(No symbol) [0x0072BEFD]
+	(No symbol) [0x0072C8FD]
+	GetHandleVerifier [0x00B3F143+2981091]
+	GetHandleVerifier [0x00B92FF9+3324825]
+	GetHandleVerifier [0x008FB32F+605903]
+	GetHandleVerifier [0x00902CBC+637020]
+	(No symbol) [0x00806F4D]
+	(No symbol) [0x00803DD8]
+	(No symbol) [0x00803F75]
+	(No symbol) [0x007F6406]
+	BaseThreadInitThunk [0x760A7BA9+25]
+	RtlInitializeExceptionChain [0x7754C11B+107]
+	RtlClearBits [0x7754C09F+191]
+ raised while trying to find Save candidate button.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}" "{vacancy}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)" "(?P<vacancy>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The spotlight shines on Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email", "vacancy"
+ERROR:screenpy:    ***ERROR***
+
+TypeError: SelectByText.from_the() takes 2 positional arguments but 3 were given
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}" "{vacancy}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)" "(?P<vacancy>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, from the vomitorium!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email", "vacancy"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Carlos" into the Full name field.
+INFO:screenpy:    Usuario enters "Rodriguez" into the Lst Name field.
+INFO:screenpy:    Usuario enters "carlos@correo.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select field.
+INFO:screenpy:    Usuario selects the option "Junior Account Assistant" from the Vacancy select field.
+ERROR:screenpy:        ***ERROR***
+
+TargetingError: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'oxd-select-text--active')]"}
+  (Session info: chrome=128.0.6613.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0108D933+25811]
+	(No symbol) [0x0101E314]
+	(No symbol) [0x00F12523]
+	(No symbol) [0x00F57483]
+	(No symbol) [0x00F5765B]
+	(No symbol) [0x00F96BA2]
+	(No symbol) [0x00F7AD74]
+	(No symbol) [0x00F946F0]
+	(No symbol) [0x00F7AAC6]
+	(No symbol) [0x00F4BEFD]
+	(No symbol) [0x00F4C8FD]
+	GetHandleVerifier [0x0135F143+2981091]
+	GetHandleVerifier [0x013B2FF9+3324825]
+	GetHandleVerifier [0x0111B32F+605903]
+	GetHandleVerifier [0x01122CBC+637020]
+	(No symbol) [0x01026F4D]
+	(No symbol) [0x01023DD8]
+	(No symbol) [0x01023F75]
+	(No symbol) [0x01016406]
+	BaseThreadInitThunk [0x760A7BA9+25]
+	RtlInitializeExceptionChain [0x7754C11B+107]
+	RtlClearBits [0x7754C09F+191]
+ raised while trying to find Vacancy select field.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}" "{vacancy}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)" "(?P<vacancy>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The spotlight shines on Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email", "vacancy"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Carlos" into the Full name field.
+INFO:screenpy:    Usuario enters "Rodriguez" into the Lst Name field.
+INFO:screenpy:    Usuario enters "carlos@correo.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select field.
+INFO:screenpy:    Usuario selects the option "Junior Account Assistant" from the Vacancy select field.
+ERROR:screenpy:        ***ERROR***
+
+TargetingError: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'oxd-select-text--active')]"}
+  (Session info: chrome=128.0.6613.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0108D933+25811]
+	(No symbol) [0x0101E314]
+	(No symbol) [0x00F12523]
+	(No symbol) [0x00F57483]
+	(No symbol) [0x00F5765B]
+	(No symbol) [0x00F96BA2]
+	(No symbol) [0x00F7AD74]
+	(No symbol) [0x00F946F0]
+	(No symbol) [0x00F7AAC6]
+	(No symbol) [0x00F4BEFD]
+	(No symbol) [0x00F4C8FD]
+	GetHandleVerifier [0x0135F143+2981091]
+	GetHandleVerifier [0x013B2FF9+3324825]
+	GetHandleVerifier [0x0111B32F+605903]
+	GetHandleVerifier [0x01122CBC+637020]
+	(No symbol) [0x01026F4D]
+	(No symbol) [0x01023DD8]
+	(No symbol) [0x01023F75]
+	(No symbol) [0x01016406]
+	BaseThreadInitThunk [0x760A7BA9+25]
+	RtlInitializeExceptionChain [0x7754C11B+107]
+	RtlClearBits [0x7754C09F+191]
+ raised while trying to find Vacancy select field.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}" "{vacancy}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)" "(?P<vacancy>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario gets over their stagefright!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email", "vacancy"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Carlos" into the Full name field.
+INFO:screenpy:    Usuario enters "Rodriguez" into the Lst Name field.
+INFO:screenpy:    Usuario enters "carlos@correo.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select field.
+INFO:screenpy:    Usuario selects the option at index 1 from the Vacancy select field.
+ERROR:screenpy:        ***ERROR***
+
+TargetingError: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'oxd-select-text--active')]"}
+  (Session info: chrome=128.0.6613.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0108D933+25811]
+	(No symbol) [0x0101E314]
+	(No symbol) [0x00F12523]
+	(No symbol) [0x00F57483]
+	(No symbol) [0x00F5765B]
+	(No symbol) [0x00F96BA2]
+	(No symbol) [0x00F7AD74]
+	(No symbol) [0x00F946F0]
+	(No symbol) [0x00F7AAC6]
+	(No symbol) [0x00F4BEFD]
+	(No symbol) [0x00F4C8FD]
+	GetHandleVerifier [0x0135F143+2981091]
+	GetHandleVerifier [0x013B2FF9+3324825]
+	GetHandleVerifier [0x0111B32F+605903]
+	GetHandleVerifier [0x01122CBC+637020]
+	(No symbol) [0x01026F4D]
+	(No symbol) [0x01023DD8]
+	(No symbol) [0x01023F75]
+	(No symbol) [0x01016406]
+	BaseThreadInitThunk [0x760A7BA9+25]
+	RtlInitializeExceptionChain [0x7754C11B+107]
+	RtlClearBits [0x7754C09F+191]
+ raised while trying to find Vacancy select field.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}" "{vacancy}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)" "(?P<vacancy>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario hears their cue!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email", "vacancy"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Carlos" into the Full name field.
+INFO:screenpy:    Usuario enters "Rodriguez" into the Lst Name field.
+INFO:screenpy:    Usuario enters "carlos@correo.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select field.
+INFO:screenpy:    Usuario selects the option at index 1 from the Vacancy select field.
+ERROR:screenpy:        ***ERROR***
+
+UnexpectedTagNameException: Message: Select only works on <select> elements, not on div
+
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario is ready for their close-up!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Carlos" into the Full name field.
+INFO:screenpy:    Usuario enters "Rodriguez" into the Lst Name field.
+INFO:screenpy:    Usuario enters "carlos@correo.com" "Junior Account Assistant" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select field.
+INFO:screenpy:    Usuario selects the option at index 1 from the Vacancy select field.
+ERROR:screenpy:        ***ERROR***
+
+UnexpectedTagNameException: Message: Select only works on <select> elements, not on div
+
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The camera pans to Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Carlos" into the Full name field.
+INFO:screenpy:    Usuario enters "Rodriguez" into the Lst Name field.
+INFO:screenpy:    Usuario enters "carlos@correo.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select field.
+INFO:screenpy:    Usuario selects the option at index 1 from the Vacancy select field.
+ERROR:screenpy:        ***ERROR***
+
+UnexpectedTagNameException: Message: Select only works on <select> elements, not on div
+
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The camera jump-cuts to Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Carlos" into the Full name field.
+INFO:screenpy:    Usuario enters "Rodriguez" into the Lst Name field.
+INFO:screenpy:    Usuario enters "carlos@correo.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select field.
+INFO:screenpy:    Usuario selects the option at index 2 from the Vacancy select field.
+ERROR:screenpy:        ***ERROR***
+
+UnexpectedTagNameException: Message: Select only works on <select> elements, not on div
+
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The camera jump-cuts to Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Carlos" into the Full name field.
+INFO:screenpy:    Usuario enters "Rodriguez" into the Lst Name field.
+INFO:screenpy:    Usuario clicks on the Vacancy select field.
+INFO:screenpy:    Usuario selects the option at index 2 from the Vacancy select field.
+ERROR:screenpy:        ***ERROR***
+
+UnexpectedTagNameException: Message: Select only works on <select> elements, not on div
+
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario arrives on stage!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Carlos" into the Full name field.
+INFO:screenpy:    Usuario enters "Rodriguez" into the Lst Name field.
+INFO:screenpy:    Usuario clicks on the Vacancy select field.
+INFO:screenpy:    Usuario selects the option at index 2 from the Vacancy select field.
+ERROR:screenpy:        ***ERROR***
+
+UnexpectedTagNameException: Message: Select only works on <select> elements, not on div
+
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario gets over their stagefright!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+ERROR:screenpy:    ***ERROR***
+
+AttributeError: 'AddRecruitment' object has no attribute 'uses_the_browser'
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario gets over their stagefright!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+ERROR:screenpy:    ***ERROR***
+
+AttributeError: 'Actor' object has no attribute 'uses_the_browser'
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario gets over their stagefright!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+ERROR:screenpy:    ***ERROR***
+
+AttributeError: 'AddRecruitment' object has no attribute 'uses_the_browser'
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The camera jump-cuts to Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+ERROR:screenpy:    ***ERROR***
+
+AttributeError: 'Actor' object has no attribute 'asks_for'
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario hears their cue!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+ERROR:screenpy:    ***ERROR***
+
+AttributeError: 'Target' object has no attribute 'locate_all'
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The spotlight shines on Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+INFO:screenpy:Usuario clicks on the Save candidate button.
+INFO:screenpy:Usuario reads the text from the confirmation message.
+ERROR:screenpy:    ***ERROR***
+
+TargetingError: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-success']"}
+  (Session info: chrome=128.0.6613.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0122D933+25811]
+	(No symbol) [0x011BE314]
+	(No symbol) [0x010B2523]
+	(No symbol) [0x010F7483]
+	(No symbol) [0x010F765B]
+	(No symbol) [0x01136BA2]
+	(No symbol) [0x0111AD74]
+	(No symbol) [0x011346F0]
+	(No symbol) [0x0111AAC6]
+	(No symbol) [0x010EBEFD]
+	(No symbol) [0x010EC8FD]
+	GetHandleVerifier [0x014FF143+2981091]
+	GetHandleVerifier [0x01552FF9+3324825]
+	GetHandleVerifier [0x012BB32F+605903]
+	GetHandleVerifier [0x012C2CBC+637020]
+	(No symbol) [0x011C6F4D]
+	(No symbol) [0x011C3DD8]
+	(No symbol) [0x011C3F75]
+	(No symbol) [0x011B6406]
+	BaseThreadInitThunk [0x760A7BA9+25]
+	RtlInitializeExceptionChain [0x7754C11B+107]
+	RtlClearBits [0x7754C09F+191]
+ raised while trying to find confirmation message.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The camera jump-cuts to Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+INFO:screenpy:Usuario clicks on the Save candidate button.
+INFO:screenpy:Usuario reads the text from the confirmation message.
+ERROR:screenpy:    ***ERROR***
+
+TargetingError: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-success']"}
+  (Session info: chrome=128.0.6613.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0122D933+25811]
+	(No symbol) [0x011BE314]
+	(No symbol) [0x010B2523]
+	(No symbol) [0x010F7483]
+	(No symbol) [0x010F765B]
+	(No symbol) [0x01136BA2]
+	(No symbol) [0x0111AD74]
+	(No symbol) [0x011346F0]
+	(No symbol) [0x0111AAC6]
+	(No symbol) [0x010EBEFD]
+	(No symbol) [0x010EC8FD]
+	GetHandleVerifier [0x014FF143+2981091]
+	GetHandleVerifier [0x01552FF9+3324825]
+	GetHandleVerifier [0x012BB32F+605903]
+	GetHandleVerifier [0x012C2CBC+637020]
+	(No symbol) [0x011C6F4D]
+	(No symbol) [0x011C3DD8]
+	(No symbol) [0x011C3F75]
+	(No symbol) [0x011B6406]
+	BaseThreadInitThunk [0x760A7BA9+25]
+	RtlInitializeExceptionChain [0x7754C11B+107]
+	RtlClearBits [0x7754C09F+191]
+ raised while trying to find confirmation message.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The camera pans to Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario hears their cue!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario appears from behind the backdrop!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The camera jump-cuts to Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Carlos" into the Full name field.
+INFO:screenpy:    Usuario enters "Rodriguez" into the Lst Name field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+INFO:screenpy:    Usuario enters "carlos@correo.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Save candidate button.
+INFO:screenpy:Usuario clicks on the Save candidate button.
+ERROR:screenpy:    ***ERROR***
+
+DeliveryError: Encountered an issue while attempting to click Save candidate button: StaleElementReferenceException
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, from the vomitorium!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario is ready for their close-up!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario appears from behind the backdrop!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+ERROR:screenpy:    ***ERROR***
+
+TypeError: ClickOnElementAtIndex() takes no arguments
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The spotlight shines on Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+ERROR:screenpy:    ***ERROR***
+
+TypeError: ClickOnElementAtIndex() takes no arguments
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, stage right!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Carlos" into the Full name field.
+INFO:screenpy:    Usuario enters "Rodriguez" into the Lst Name field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+ERROR:screenpy:    ***ERROR***
+
+IndexError: Replacement index 1 out of range for positional args tuple
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario is ready for their close-up!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Carlos" into the Full name field.
+INFO:screenpy:    Usuario enters "Rodriguez" into the Lst Name field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+ERROR:screenpy:    ***ERROR***
+
+IndexError: Replacement index 1 out of range for positional args tuple
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The camera pans to Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Carlos" into the Full name field.
+INFO:screenpy:    Usuario enters "Rodriguez" into the Lst Name field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+ERROR:screenpy:    ***ERROR***
+
+IndexError: Replacement index 1 out of range for positional args tuple
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The spotlight shines on Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Carlos" into the Full name field.
+INFO:screenpy:    Usuario enters "Rodriguez" into the Lst Name field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+ERROR:screenpy:    ***ERROR***
+
+IndexError: Replacement index 1 out of range for positional args tuple
+INFO:root:Ending scenario: Add candidate successfully

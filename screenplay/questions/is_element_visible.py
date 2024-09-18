@@ -2,8 +2,6 @@ from screenpy import Actor
 from screenpy.pacing import beat
 from screenpy_selenium.questions import Text
 
-from screenplay.ui.google_home import GoogleHomePage
-
 class IsElementVisible:
     """Pregunta si un elemento está visible en la página."""
 
