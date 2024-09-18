@@ -12,3 +12,370 @@ INFO:screenpy:    Usuario enters "Screenplay Pattern" into the Google search bar
 INFO:screenpy:        then hits the ENTER key
 INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Google search results]
 INFO:root:Ending scenario: Realizar una búsqueda en Google
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Perform a search on Google
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, from the vomitorium!
+INFO:screenpy:Usuario searches Google for "Screenplay Pattern"
+INFO:screenpy:    Usuario enters "Screenplay Pattern" into the Google search bar.
+INFO:screenpy:        then hits the ENTER key
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Google search results]
+INFO:root:Ending scenario: Perform a search on Google
+INFO:root:Starting scenario: Successful login with valid credentials
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters the frame!
+INFO:root:Ending scenario: Successful login with valid credentials
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Perform a search on Google
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The camera pans to Usuario!
+INFO:screenpy:Usuario searches Google for "Screenplay Pattern"
+INFO:screenpy:    Usuario enters "Screenplay Pattern" into the Google search bar.
+INFO:screenpy:        then hits the ENTER key
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Google search results]
+INFO:root:Ending scenario: Perform a search on Google
+INFO:root:Starting scenario: Successful login with valid credentials
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The curtain rises to reveal Usuario!
+INFO:root:Ending scenario: Successful login with valid credentials
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'I launch the login page' -> 'I launch the login page'
+DEBUG:parse:format 'I enter valid credentials and submit form' -> 'I enter valid credentials and submit form'
+DEBUG:parse:format 'I should see the user dashboard' -> 'I should see the user dashboard'
+INFO:root:Starting scenario: Perform a search on Google
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The camera pans to Usuario!
+INFO:screenpy:Usuario searches Google for "Screenplay Pattern"
+INFO:screenpy:    Usuario enters "Screenplay Pattern" into the Google search bar.
+INFO:screenpy:        then hits the ENTER key
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Google search results]
+INFO:root:Ending scenario: Perform a search on Google
+INFO:root:Starting scenario: Successful login with valid credentials
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The curtain rises to reveal Usuario!
+INFO:root:Ending scenario: Successful login with valid credentials
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'I launch the login page' -> 'I launch the login page'
+DEBUG:parse:format 'I enter valid credentials and submit form "{username}" "{password}"' -> 'I enter valid credentials and submit form "(?P<username>.+?)" "(?P<password>.+?)"'
+DEBUG:parse:format 'I should see the user dashboard' -> 'I should see the user dashboard'
+INFO:root:Starting scenario: Perform a search on Google
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario is ready for their close-up!
+INFO:screenpy:Usuario searches Google for "Screenplay Pattern"
+INFO:screenpy:    Usuario enters "Screenplay Pattern" into the Google search bar.
+INFO:screenpy:        then hits the ENTER key
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Google search results]
+INFO:root:Ending scenario: Perform a search on Google
+INFO:root:Starting scenario: Successful login with valid credentials
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario hears their cue!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+ERROR:screenpy:        ***ERROR***
+
+TargetingError: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[name="username"]"}
+  (Session info: chrome=128.0.6613.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x006FD933+25811]
+	(No symbol) [0x0068E314]
+	(No symbol) [0x00582523]
+	(No symbol) [0x005C7483]
+	(No symbol) [0x005C765B]
+	(No symbol) [0x00606BA2]
+	(No symbol) [0x005EAD74]
+	(No symbol) [0x006046F0]
+	(No symbol) [0x005EAAC6]
+	(No symbol) [0x005BBEFD]
+	(No symbol) [0x005BC8FD]
+	GetHandleVerifier [0x009CF143+2981091]
+	GetHandleVerifier [0x00A22FF9+3324825]
+	GetHandleVerifier [0x0078B32F+605903]
+	GetHandleVerifier [0x00792CBC+637020]
+	(No symbol) [0x00696F4D]
+	(No symbol) [0x00693DD8]
+	(No symbol) [0x00693F75]
+	(No symbol) [0x00686406]
+	BaseThreadInitThunk [0x760A7BA9+25]
+	RtlInitializeExceptionChain [0x7754C11B+107]
+	RtlClearBits [0x7754C09F+191]
+ raised while trying to find Username input.
+INFO:root:Ending scenario: Successful login with valid credentials
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'I launch the login page' -> 'I launch the login page'
+DEBUG:parse:format 'I enter valid credentials and submit form "{username}" "{password}"' -> 'I enter valid credentials and submit form "(?P<username>.+?)" "(?P<password>.+?)"'
+DEBUG:parse:format 'I should see the user dashboard' -> 'I should see the user dashboard'
+INFO:root:Starting scenario: Perform a search on Google
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, stage right!
+INFO:screenpy:Usuario searches Google for "Screenplay Pattern"
+INFO:screenpy:    Usuario enters "Screenplay Pattern" into the Google search bar.
+INFO:screenpy:        then hits the ENTER key
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Google search results]
+INFO:root:Ending scenario: Perform a search on Google
+INFO:root:Starting scenario: Successful login with valid credentials
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, stage left!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+ERROR:screenpy:        ***ERROR***
+
+TargetingError: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(@name,'username')]"}
+  (Session info: chrome=128.0.6613.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x006FD933+25811]
+	(No symbol) [0x0068E314]
+	(No symbol) [0x00582523]
+	(No symbol) [0x005C7483]
+	(No symbol) [0x005C765B]
+	(No symbol) [0x00606BA2]
+	(No symbol) [0x005EAD74]
+	(No symbol) [0x006046F0]
+	(No symbol) [0x005EAAC6]
+	(No symbol) [0x005BBEFD]
+	(No symbol) [0x005BC8FD]
+	GetHandleVerifier [0x009CF143+2981091]
+	GetHandleVerifier [0x00A22FF9+3324825]
+	GetHandleVerifier [0x0078B32F+605903]
+	GetHandleVerifier [0x00792CBC+637020]
+	(No symbol) [0x00696F4D]
+	(No symbol) [0x00693DD8]
+	(No symbol) [0x00693F75]
+	(No symbol) [0x00686406]
+	BaseThreadInitThunk [0x760A7BA9+25]
+	RtlInitializeExceptionChain [0x7754C11B+107]
+	RtlClearBits [0x7754C09F+191]
+ raised while trying to find Username input.
+INFO:root:Ending scenario: Successful login with valid credentials
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'I launch the login page' -> 'I launch the login page'
+DEBUG:parse:format 'I enter valid credentials and submit form "{username}" "{password}"' -> 'I enter valid credentials and submit form "(?P<username>.+?)" "(?P<password>.+?)"'
+DEBUG:parse:format 'I should see the user dashboard' -> 'I should see the user dashboard'
+INFO:root:Starting scenario: Perform a search on Google
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, on a wire!
+INFO:screenpy:Usuario searches Google for "Screenplay Pattern"
+INFO:screenpy:    Usuario enters "Screenplay Pattern" into the Google search bar.
+INFO:screenpy:        then hits the ENTER key
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Google search results]
+INFO:root:Ending scenario: Perform a search on Google
+INFO:root:Starting scenario: Successful login with valid credentials
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The camera pans to Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:root:Ending scenario: Successful login with valid credentials
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'I launch the login page' -> 'I launch the login page'
+DEBUG:parse:format 'I enter valid credentials and submit form "{username}" "{password}"' -> 'I enter valid credentials and submit form "(?P<username>.+?)" "(?P<password>.+?)"'
+DEBUG:parse:format 'I should see the user dashboard' -> 'I should see the user dashboard'
+INFO:root:Starting scenario: Perform a search on Google
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario arrives on stage!
+INFO:screenpy:Usuario searches Google for "Screenplay Pattern"
+INFO:screenpy:    Usuario enters "Screenplay Pattern" into the Google search bar.
+INFO:screenpy:        then hits the ENTER key
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Google search results]
+INFO:root:Ending scenario: Perform a search on Google
+INFO:root:Starting scenario: Successful login with valid credentials
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, on a wire!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:root:Ending scenario: Successful login with valid credentials
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'I launch the login page' -> 'I launch the login page'
+DEBUG:parse:format 'I enter valid credentials and submit form "{username}" "{password}"' -> 'I enter valid credentials and submit form "(?P<username>.+?)" "(?P<password>.+?)"'
+DEBUG:parse:format 'I should see the user dashboard' -> 'I should see the user dashboard'
+INFO:root:Starting scenario: Perform a search on Google
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, from the vomitorium!
+INFO:screenpy:Usuario searches Google for "Screenplay Pattern"
+INFO:screenpy:    Usuario enters "Screenplay Pattern" into the Google search bar.
+INFO:screenpy:        then hits the ENTER key
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Google search results]
+INFO:root:Ending scenario: Perform a search on Google
+INFO:root:Starting scenario: Successful login with valid credentials
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, on a wire!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:root:Ending scenario: Successful login with valid credentials
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'I launch the login page' -> 'I launch the login page'
+DEBUG:parse:format 'I enter valid credentials and submit form "{username}" "{password}"' -> 'I enter valid credentials and submit form "(?P<username>.+?)" "(?P<password>.+?)"'
+DEBUG:parse:format 'I should see the user dashboard' -> 'I should see the user dashboard'
+INFO:root:Starting scenario: Perform a search on Google
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario arrives on stage!
+INFO:screenpy:Usuario searches Google for "Screenplay Pattern"
+INFO:screenpy:    Usuario enters "Screenplay Pattern" into the Google search bar.
+INFO:screenpy:        then hits the ENTER key
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Google search results]
+INFO:root:Ending scenario: Perform a search on Google
+INFO:root:Starting scenario: Successful login with valid credentials
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The curtain rises to reveal Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:root:Ending scenario: Successful login with valid credentials
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'I launch the login page' -> 'I launch the login page'
+DEBUG:parse:format 'I enter valid credentials and submit form "{username}" "{password}"' -> 'I enter valid credentials and submit form "(?P<username>.+?)" "(?P<password>.+?)"'
+DEBUG:parse:format 'I should see the user dashboard' -> 'I should see the user dashboard'
+INFO:root:Starting scenario: Perform a search on Google
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The curtain rises to reveal Usuario!
+INFO:screenpy:Usuario searches Google for "Screenplay Pattern"
+INFO:screenpy:    Usuario enters "Screenplay Pattern" into the Google search bar.
+INFO:screenpy:        then hits the ENTER key
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Google search results]
+INFO:root:Ending scenario: Perform a search on Google
+INFO:root:Starting scenario: Successful login with valid credentials
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario makes their debut!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario reads the URL from their browser.
+INFO:screenpy:    => 'https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index'
+INFO:root:Ending scenario: Successful login with valid credentials
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'I launch the login page' -> 'I launch the login page'
+DEBUG:parse:format 'I enter valid credentials and submit form "{username}" "{password}"' -> 'I enter valid credentials and submit form "(?P<username>.+?)" "(?P<password>.+?)"'
+DEBUG:parse:format 'I should see the user dashboard' -> 'I should see the user dashboard'
+INFO:root:Starting scenario: Successful login with valid credentials
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The camera jump-cuts to Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario reads the URL from their browser.
+INFO:screenpy:    => 'https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index'
+INFO:root:Ending scenario: Successful login with valid credentials
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'I launch the login page' -> 'I launch the login page'
+DEBUG:parse:format 'I enter valid credentials and submit form "{username}" "{password}"' -> 'I enter valid credentials and submit form "(?P<username>.+?)" "(?P<password>.+?)"'
+DEBUG:parse:format 'I should see the user dashboard' -> 'I should see the user dashboard'
+INFO:root:Starting scenario: Successful login with valid credentials
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The spotlight shines on Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario reads the URL from their browser.
+INFO:screenpy:    => 'https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index'
+INFO:root:Ending scenario: Successful login with valid credentials

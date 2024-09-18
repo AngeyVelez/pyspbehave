@@ -5,16 +5,15 @@ from screenplay.tasks.close_cookie_notice_google import CloseCookieNoticeGoogle
 from screenplay.tasks.search_google import SearchGoogle
 from screenplay.ui.google_home import GoogleHomePage
 
-@given('que el usuario está en la página principal de Google')
+@given('the user is on the Google homepage')
 def step_given_usuario_esta_en_google(context):
     context.driver.get(GoogleHomePage.URL)
 
-@when('el usuario busca "{query}"')
+@when('the user searches for "{query}"')
 def step_when_usuario_busca(context, query):
     # context.actor.attempts_to(CloseCookieNoticeGoogle.close_cookie_notice())
     context.actor.attempts_to(SearchGoogle.for_term(query))
 
-@then('el usuario debería ver resultados de búsqueda')
+@then('the user should see search results')
 def step_then_usuario_deberia_ver_resultados(context):
-    # Verifica que los resultados de búsqueda son visibles
     assert IsElementVisible(GoogleHomePage.RESULTS).answered_by(context.actor)

@@ -1,9 +1,6 @@
-Feature: Búsqueda en Google
-  Como usuario
-  Quiero buscar en Google
-  Para poder obtener resultados de búsqueda
+Feature: Google search
 
-  Scenario: Realizar una búsqueda en Google
-    Given que el usuario está en la página principal de Google
-    When el usuario busca "Screenplay Pattern"
-    Then el usuario debería ver resultados de búsqueda
+  Scenario: Perform a search on Google
+    Given the user is on the Google homepage
+    When the user searches for "Screenplay Pattern"
+    Then the user should see search results
