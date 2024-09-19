@@ -23,8 +23,7 @@ class AddCandidate:
             Enter.the_text(self.email).into(RecruitmentPage.EMAIL_FIELD),
             Click.on(RecruitmentPage.VACANCY_SELECT),
             Wait.for_the(RecruitmentPage.VACANCY_OPTIONS).to_appear(),
-            ClickOnElementAtIndex.on(RecruitmentPage.VACANCY_OPTIONS, 2),
-            Click.on_the(RecruitmentPage.SAVE_CANDIDATE_BTN)
+            ClickOnElementAtIndex.on(RecruitmentPage.VACANCY_OPTIONS, 1)
         )
 
     def __init__(self, fullname: str, lastname: str, email: str) -> None:

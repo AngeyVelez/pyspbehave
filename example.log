@@ -2476,3 +2476,1497 @@ Stacktrace:
 	RtlClearBits [0x7754C09F+191]
  raised while trying to find Save candidate button.
 INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario makes their debut!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+INFO:screenpy:    Usuario clicks on the item in the 'index' of 'target'
+ERROR:screenpy:        ***ERROR***
+
+IndexError: Index 2 out of range. There are 1 available items.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The camera jump-cuts to Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+INFO:screenpy:    Usuario clicks on the item in the 'index' of 'target'
+INFO:screenpy:        Usuario lists off the Vacancy options.
+INFO:screenpy:            => <[<selenium.webdriver.remote.webelement.WebElement (session="a52cb02ac5afaf53a8e20946be9d3552", element="f.FAB72F3FE4DDBC6BD694E92827E00B12.d.2CE54A37DC3E1570679C480702BCBAE1.e.143")>]>
+ERROR:screenpy:        ***ERROR***
+
+IndexError: Index 2 out of range. There are 1 available items.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters the frame!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+INFO:screenpy:    Usuario clicks on the item in the 'index' of 'target'
+INFO:screenpy:        Usuario lists off the Vacancy options.
+INFO:screenpy:            => <[<selenium.webdriver.remote.webelement.WebElement (session="ef16318ad6815d31f1387dd541f0b106", element="f.5795CA1B78FED2CC5743DA6A07B17AAD.d.C78DE356D351A80C97A23F7F621E3A1B.e.142")>]>
+ERROR:screenpy:        ***ERROR***
+
+IndexError: Index 2 out of range. There are 1 available items.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario arrives on stage!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+ERROR:screenpy:    ***ERROR***
+
+AttributeError: type object 'RecruitmentPage' has no attribute 'OPTIONS'
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario arrives on stage!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+INFO:screenpy:        Usuario lists off the Vacancy options.
+INFO:screenpy:            => <[<selenium.webdriver.remote.webelement.WebElement (session="23be33b2dd4c74c8ef9a7b53ceb1bf67", element="f.4ACDC969EC139AE47D32C3BA443CD2A5.d.21076E9DF60BD275BC078CEA263B21DC.e.146")>]>
+ERROR:screenpy:        ***ERROR***
+
+IndexError: Index 2 out of range. There are 1 available items.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario appears from behind the backdrop!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+INFO:screenpy:        Usuario lists off the Vacancy options.
+INFO:screenpy:            => <[<selenium.webdriver.remote.webelement.WebElement (session="2a8b153c7094e58769111facb37f89c8", element="f.E9B87BF17DE9F6220611DD7DF03022B9.d.F916199D07A3F5DB2F6E10D3D49871E2.e.144")>]>
+ERROR:screenpy:        ***ERROR***
+
+IndexError: Index 2 out of range. There are 1 available items.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The curtain rises to reveal Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+INFO:screenpy:        Usuario lists off the Vacancy options.
+INFO:screenpy:            => <[<selenium.webdriver.remote.webelement.WebElement (session="d9dcc05105dee8d99dda60d7e5c38c74", element="f.CA46C640FB218557B35145867E56A02E.d.2D56B861BF5894897EC7346BD2B53C1B.e.140")>]>
+ERROR:screenpy:        ***ERROR***
+
+IndexError: Index 1 out of range. There are 1 available items.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, from the vomitorium!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+ERROR:screenpy:        ***ERROR***
+
+IndexError: Index 1 out of range. There are 1 available items.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, stage left!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+ERROR:screenpy:        ***ERROR***
+
+IndexError: Index 1 out of range. There are 1 available items.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The camera jump-cuts to Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+ERROR:screenpy:        ***ERROR***
+
+IndexError: Index 1 out of range. There are 1 available items.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario arrives on stage!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+ERROR:screenpy:        ***ERROR***
+
+IndexError: Index 1 out of range. There are 1 available items.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The curtain rises to reveal Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+ERROR:screenpy:        ***ERROR***
+
+IndexError: Index 2 out of range. There are 1 available items.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario makes their debut!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+ERROR:screenpy:        ***ERROR***
+
+IndexError: Index 1 out of range. There are 1 available items.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario hears their cue!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+ERROR:screenpy:    ***ERROR***
+
+AttributeError: 'NoneType' object has no attribute 'perform_as'
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario makes their debut!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+INFO:screenpy:    Usuario clicks on the Save candidate button.
+INFO:screenpy:Usuario clicks on the Save candidate button.
+ERROR:screenpy:    ***ERROR***
+
+DeliveryError: Encountered an issue while attempting to click Save candidate button: ElementClickInterceptedException
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The camera jump-cuts to Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+ERROR:screenpy:        ***ERROR***
+
+IndexError: Index 1 out of range. There are 1 available items.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The curtain rises to reveal Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+ERROR:screenpy:    ***ERROR***
+
+AttributeError: 'NoneType' object has no attribute 'perform_as'
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The camera pans to Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+ERROR:screenpy:        ***ERROR***
+
+IndexError: Index 1 out of range. There are 1 available items.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario arrives on stage!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+ERROR:screenpy:        ***ERROR***
+
+IndexError: Index 1 out of range. There are 1 available items.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, on a wire!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+ERROR:screenpy:        ***ERROR***
+
+IndexError: Index 1 out of range. There are 1 available items.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario hears their cue!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+ERROR:screenpy:        ***ERROR***
+
+IndexError: Index 1 out of range. There are 1 available items.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario makes their debut!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+ERROR:screenpy:        ***ERROR***
+
+IndexError: Index 1 out of range. There are 1 available items.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario makes their debut!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice '1' de 'Vacancy options'
+ERROR:screenpy:        ***ERROR***
+
+IndexError: Index 1 out of range. There are 1 available items.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The curtain rises to reveal Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+ERROR:screenpy:        ***ERROR***
+
+IndexError: Index 1 out of range. There are 1 available items.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The curtain rises to reveal Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+INFO:screenpy:        Usuario lists off the Vacancy options.
+INFO:screenpy:            => <[<selenium.webdriver.remote.webelement.WebElement (session="363b9622b8b21ffaa73de51df6b38bcc", element="f.CD6E05203A0C049EB2EB2B1E3AEE055A.d.CCE1DBFF73825209DBB4559CBC874EB7.e.148")>]>
+ERROR:screenpy:        ***ERROR***
+
+IndexError: Index 1 out of range. There are 1 available items.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, stage right!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+INFO:screenpy:    Usuario clicks on the Save candidate button.
+INFO:screenpy:Usuario clicks on the Save candidate button.
+ERROR:screenpy:    ***ERROR***
+
+DeliveryError: Encountered an issue while attempting to click Save candidate button: StaleElementReferenceException
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario appears from behind the backdrop!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the elements with role option to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+INFO:screenpy:    Usuario clicks on the Save candidate button.
+INFO:screenpy:Usuario clicks on the Save candidate button.
+ERROR:screenpy:    ***ERROR***
+
+DeliveryError: Encountered an issue while attempting to click Save candidate button: ElementClickInterceptedException
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The spotlight shines on Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the elements with role option to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+INFO:screenpy:    Usuario clicks on the Save candidate button.
+INFO:screenpy:Usuario clicks on the Save candidate button.
+ERROR:screenpy:    ***ERROR***
+
+DeliveryError: Encountered an issue while attempting to click Save candidate button: ElementClickInterceptedException
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, stage right!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the elements with role option to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+INFO:screenpy:    Usuario clicks on the Save candidate button.
+INFO:screenpy:Usuario clicks on the Save candidate button.
+ERROR:screenpy:    ***ERROR***
+
+DeliveryError: Encountered an issue while attempting to click Save candidate button: StaleElementReferenceException
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The camera pans to Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the elements with role option to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+INFO:screenpy:    Usuario clicks on the Save candidate button.
+INFO:screenpy:Usuario clicks on the Save candidate button.
+ERROR:screenpy:    ***ERROR***
+
+DeliveryError: Encountered an issue while attempting to click Save candidate button: ElementClickInterceptedException
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The camera jump-cuts to Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the elements with role option to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+INFO:screenpy:Usuario clicks on the Save candidate button.
+INFO:screenpy:Usuario reads the text from the confirmation message.
+ERROR:screenpy:    ***ERROR***
+
+TargetingError: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-success']"}
+  (Session info: chrome=128.0.6613.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00C3D933+25811]
+	(No symbol) [0x00BCE314]
+	(No symbol) [0x00AC2523]
+	(No symbol) [0x00B07483]
+	(No symbol) [0x00B0765B]
+	(No symbol) [0x00B46BA2]
+	(No symbol) [0x00B2AD74]
+	(No symbol) [0x00B446F0]
+	(No symbol) [0x00B2AAC6]
+	(No symbol) [0x00AFBEFD]
+	(No symbol) [0x00AFC8FD]
+	GetHandleVerifier [0x00F0F143+2981091]
+	GetHandleVerifier [0x00F62FF9+3324825]
+	GetHandleVerifier [0x00CCB32F+605903]
+	GetHandleVerifier [0x00CD2CBC+637020]
+	(No symbol) [0x00BD6F4D]
+	(No symbol) [0x00BD3DD8]
+	(No symbol) [0x00BD3F75]
+	(No symbol) [0x00BC6406]
+	BaseThreadInitThunk [0x75DA7BA9+25]
+	RtlInitializeExceptionChain [0x773EC11B+107]
+	RtlClearBits [0x773EC09F+191]
+ raised while trying to find confirmation message.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The camera jump-cuts to Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the elements with role option to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+INFO:screenpy:Usuario clicks on the Save candidate button.
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Shortlist a candidate
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario appears from behind the backdrop!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the elements with role option to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+INFO:screenpy:Usuario clicks on the Save candidate button.
+INFO:screenpy:Usuarioshortlist candidate
+INFO:screenpy:    Usuario clicks on the continue process button.
+ERROR:screenpy:        ***ERROR***
+
+TargetingError: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@class, 'oxd-button--success')]"}
+  (Session info: chrome=128.0.6613.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00C3D933+25811]
+	(No symbol) [0x00BCE314]
+	(No symbol) [0x00AC2523]
+	(No symbol) [0x00B07483]
+	(No symbol) [0x00B0765B]
+	(No symbol) [0x00B46BA2]
+	(No symbol) [0x00B2AD74]
+	(No symbol) [0x00B446F0]
+	(No symbol) [0x00B2AAC6]
+	(No symbol) [0x00AFBEFD]
+	(No symbol) [0x00AFC8FD]
+	GetHandleVerifier [0x00F0F143+2981091]
+	GetHandleVerifier [0x00F62FF9+3324825]
+	GetHandleVerifier [0x00CCB32F+605903]
+	GetHandleVerifier [0x00CD2CBC+637020]
+	(No symbol) [0x00BD6F4D]
+	(No symbol) [0x00BD3DD8]
+	(No symbol) [0x00BD3F75]
+	(No symbol) [0x00BC6406]
+	BaseThreadInitThunk [0x75DA7BA9+25]
+	RtlInitializeExceptionChain [0x773EC11B+107]
+	RtlClearBits [0x773EC09F+191]
+ raised while trying to find continue process button.
+INFO:root:Ending scenario: Shortlist a candidate
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Shortlist a candidate
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Shortlist a candidate
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The camera jump-cuts to Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the elements with role option to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+INFO:screenpy:Usuario clicks on the Save candidate button.
+INFO:screenpy:Usuarioshortlist candidate
+INFO:screenpy:    Usuario clicks on the continue process button.
+ERROR:screenpy:        ***ERROR***
+
+TargetingError: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@class, 'oxd-button--success')]"}
+  (Session info: chrome=128.0.6613.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00C3D933+25811]
+	(No symbol) [0x00BCE314]
+	(No symbol) [0x00AC2523]
+	(No symbol) [0x00B07483]
+	(No symbol) [0x00B0765B]
+	(No symbol) [0x00B46BA2]
+	(No symbol) [0x00B2AD74]
+	(No symbol) [0x00B446F0]
+	(No symbol) [0x00B2AAC6]
+	(No symbol) [0x00AFBEFD]
+	(No symbol) [0x00AFC8FD]
+	GetHandleVerifier [0x00F0F143+2981091]
+	GetHandleVerifier [0x00F62FF9+3324825]
+	GetHandleVerifier [0x00CCB32F+605903]
+	GetHandleVerifier [0x00CD2CBC+637020]
+	(No symbol) [0x00BD6F4D]
+	(No symbol) [0x00BD3DD8]
+	(No symbol) [0x00BD3F75]
+	(No symbol) [0x00BC6406]
+	BaseThreadInitThunk [0x75DA7BA9+25]
+	RtlInitializeExceptionChain [0x773EC11B+107]
+	RtlClearBits [0x773EC09F+191]
+ raised while trying to find continue process button.
+INFO:root:Ending scenario: Shortlist a candidate
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Shortlist a candidate
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, on a wire!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the elements with role option to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+INFO:screenpy:Usuario clicks on the Save candidate button.
+INFO:root:Ending scenario: Shortlist a candidate
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+INFO:root:Starting scenario: Shortlist a candidate
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario arrives on stage!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the elements with role option to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+INFO:screenpy:Usuario clicks on the Save candidate button.
+INFO:screenpy:Usuarioshortlist candidate
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the continue process button to appear...
+INFO:screenpy:    Usuario clicks on the continue process button.
+INFO:root:Ending scenario: Shortlist a candidate
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+DEBUG:parse:format 'the user click on save shortlist button' -> 'the user click on save shortlist button'
+DEBUG:parse:format 'the user should see x' -> 'the user should see x'
+INFO:root:Starting scenario: Shortlist a candidate
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, from the vomitorium!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the elements with role option to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+INFO:screenpy:Usuario clicks on the Save candidate button.
+INFO:screenpy:Usuarioxxxx
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the continue process button to appear...
+INFO:screenpy:    Usuario clicks on the continue process button.
+INFO:root:Ending scenario: Shortlist a candidate
+INFO:root:Starting scenario: Save shorlist candidate
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, from the vomitorium!
+INFO:screenpy:Usuarioxxxx
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the save shortlist button to appear...
+ERROR:screenpy:        ***ERROR***
+
+DeliveryError: Encountered an exception using visibility_of_element_located with [save shortlist button]: TimeoutException
+INFO:root:Ending scenario: Save shorlist candidate
