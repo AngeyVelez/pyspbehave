@@ -6,4 +6,4 @@ Feature: Add candidate
     And the user click on the "Add" button in the module
     And the user fill out the candidate form with the following details: "Andrew" "Gil" "mail@email.com"
     And the user submit the form
-    Then the user should see a shortlist option
+    Then the user should see a the candidate profile

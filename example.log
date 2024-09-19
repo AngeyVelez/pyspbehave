@@ -4099,3 +4099,533 @@ INFO:screenpy:Usuarioxxxx
 INFO:screenpy:    Usuario waits up to 20.0 seconds for the continue process button to appear...
 INFO:screenpy:    Usuario clicks on the continue process button.
 INFO:root:Ending scenario: Shortlist a candidate
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+DEBUG:parse:format 'the candidate is shortlist' -> 'the candidate is shortlist'
+DEBUG:parse:format 'the user click on schedule interview' -> 'the user click on schedule interview'
+DEBUG:parse:format 'the user should see a interview form' -> 'the user should see a interview form'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate and click on shortlist' -> 'the user want to shortlist a newly created candidate and click on shortlist'
+DEBUG:parse:format 'the user click on save shortlist button' -> 'the user click on save shortlist button'
+DEBUG:parse:format 'the user should see x' -> 'the user should see x'
+INFO:root:Starting scenario: Shortlist a candidate
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The spotlight shines on Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the elements with role option to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+INFO:screenpy:Usuario clicks on the Save candidate button.
+INFO:screenpy:Usuarioxxxx
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the continue process button to appear...
+INFO:screenpy:    Usuario clicks on the continue process button.
+INFO:root:Ending scenario: Shortlist a candidate
+INFO:root:Starting scenario: Schedule interview
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, on a wire!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the elements with role option to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+INFO:screenpy:Usuario clicks on the Save candidate button.
+INFO:screenpy:Usuarioxxxx
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the continue process button to appear...
+INFO:screenpy:    Usuario clicks on the continue process button.
+INFO:screenpy:Usuarioxxxx
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the save shortlist button to appear...
+INFO:screenpy:    Usuario clicks on the save shortlist button.
+INFO:root:Ending scenario: Schedule interview
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+DEBUG:parse:format 'the candidate is shortlist' -> 'the candidate is shortlist'
+DEBUG:parse:format 'the user click on schedule interview' -> 'the user click on schedule interview'
+DEBUG:parse:format 'the user should see a interview form' -> 'the user should see a interview form'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate and click on shortlist' -> 'the user want to shortlist a newly created candidate and click on shortlist'
+DEBUG:parse:format 'the user click on save shortlist button' -> 'the user click on save shortlist button'
+DEBUG:parse:format 'the user should see x' -> 'the user should see x'
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+DEBUG:parse:format 'the candidate is shortlist' -> 'the candidate is shortlist'
+DEBUG:parse:format 'the user click on schedule interview' -> 'the user click on schedule interview'
+DEBUG:parse:format 'the user should see a interview form' -> 'the user should see a interview form'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate and click on shortlist' -> 'the user want to shortlist a newly created candidate and click on shortlist'
+DEBUG:parse:format 'the user click on save shortlist button' -> 'the user click on save shortlist button'
+DEBUG:parse:format 'the user should see x' -> 'the user should see x'
+DEBUG:parse:format 'the user must schedule an interview' -> 'the user must schedule an interview'
+DEBUG:parse:format 'enter valid data and submit form "{title}" "{interviewer}" "{date}"' -> 'enter valid data and submit form "(?P<title>.+?)" "(?P<interviewer>.+?)" "(?P<date>.+?)"'
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+DEBUG:parse:format 'the candidate is shortlist' -> 'the candidate is shortlist'
+DEBUG:parse:format 'the user click on schedule interview' -> 'the user click on schedule interview'
+DEBUG:parse:format 'the user should see a interview form' -> 'the user should see a interview form'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate and click on shortlist' -> 'the user want to shortlist a newly created candidate and click on shortlist'
+DEBUG:parse:format 'the user click on save shortlist button' -> 'the user click on save shortlist button'
+DEBUG:parse:format 'the user should see x' -> 'the user should see x'
+DEBUG:parse:format 'the user must schedule an interview' -> 'the user must schedule an interview'
+DEBUG:parse:format 'enter valid data and submit form "{title}" "{interviewer}" "{date}"' -> 'enter valid data and submit form "(?P<title>.+?)" "(?P<interviewer>.+?)" "(?P<date>.+?)"'
+DEBUG:parse:format 'the user should see a Successful message' -> 'the user should see a Successful message'
+INFO:root:Starting scenario: Successful schedule interviewer with valid data
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:WebDriver version 128.0.6613.137 selected
+INFO:WDM:Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/128.0.6613.137/win32/chromedriver-win32.zip
+INFO:WDM:About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/128.0.6613.137/win32/chromedriver-win32.zip
+INFO:WDM:Driver downloading response is 200
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver has been saved in cache [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137]
+INFO:screenpy:Usuario gets over their stagefright!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the elements with role option to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+INFO:screenpy:Usuario clicks on the Save candidate button.
+INFO:screenpy:Usuarioxxxx
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the continue process button to appear...
+INFO:screenpy:    Usuario clicks on the continue process button.
+INFO:screenpy:Usuarioxxxx
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the save shortlist button to appear...
+INFO:screenpy:    Usuario clicks on the save shortlist button.
+INFO:screenpy:Usuario create a scedule interview with "title", "interviwer", "date"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [date input]
+ERROR:screenpy:        ***ERROR***
+
+DeliveryError: Encountered an exception using visibility_of_element_located with [date input]: TimeoutException
+INFO:root:Ending scenario: Successful schedule interviewer with valid data
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+DEBUG:parse:format 'the candidate is shortlist' -> 'the candidate is shortlist'
+DEBUG:parse:format 'the user click on schedule interview' -> 'the user click on schedule interview'
+DEBUG:parse:format 'the user should see a interview form' -> 'the user should see a interview form'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate and click on shortlist' -> 'the user want to shortlist a newly created candidate and click on shortlist'
+DEBUG:parse:format 'the user click on save shortlist button' -> 'the user click on save shortlist button'
+DEBUG:parse:format 'the user should see x' -> 'the user should see x'
+DEBUG:parse:format 'the user must schedule an interview' -> 'the user must schedule an interview'
+DEBUG:parse:format 'enter valid data and submit form "{title}" "{interviewer}" "{date}"' -> 'enter valid data and submit form "(?P<title>.+?)" "(?P<interviewer>.+?)" "(?P<date>.+?)"'
+DEBUG:parse:format 'the user should see a Successful message' -> 'the user should see a Successful message'
+INFO:root:Starting scenario: Successful schedule interviewer with valid data
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario arrives on stage!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the elements with role option to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+INFO:screenpy:Usuario clicks on the Save candidate button.
+INFO:screenpy:Usuarioxxxx
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the continue process button to appear...
+INFO:screenpy:    Usuario clicks on the continue process button.
+INFO:screenpy:Usuarioxxxx
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the save shortlist button to appear...
+INFO:screenpy:    Usuario clicks on the save shortlist button.
+INFO:screenpy:Usuario create a scedule interview with "title", "interviwer", "date"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [date input]
+ERROR:screenpy:        ***ERROR***
+
+DeliveryError: Encountered an exception using visibility_of_element_located with [date input]: TimeoutException
+INFO:root:Ending scenario: Successful schedule interviewer with valid data
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+DEBUG:parse:format 'the candidate is shortlist' -> 'the candidate is shortlist'
+DEBUG:parse:format 'the user click on schedule interview' -> 'the user click on schedule interview'
+DEBUG:parse:format 'the user should see a interview form' -> 'the user should see a interview form'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate and click on shortlist' -> 'the user want to shortlist a newly created candidate and click on shortlist'
+DEBUG:parse:format 'the user click on save shortlist button' -> 'the user click on save shortlist button'
+DEBUG:parse:format 'the user should see x' -> 'the user should see x'
+DEBUG:parse:format 'the user must schedule an interview' -> 'the user must schedule an interview'
+DEBUG:parse:format 'enter valid data and submit form "{title}" "{interviewer}" "{date}"' -> 'enter valid data and submit form "(?P<title>.+?)" "(?P<interviewer>.+?)" "(?P<date>.+?)"'
+DEBUG:parse:format 'the user should see a Successful message' -> 'the user should see a Successful message'
+INFO:root:Starting scenario: Successful schedule interviewer with valid data
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters the frame!
+INFO:root:Ending scenario: Successful schedule interviewer with valid data
+WARNING:urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018FD4328B90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/0bc5c43eb6ae37133c201a2245caf0a2
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000018FD432A1B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/0bc5c43eb6ae37133c201a2245caf0a2
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+DEBUG:parse:format 'the candidate is shortlist' -> 'the candidate is shortlist'
+DEBUG:parse:format 'the user click on schedule interview' -> 'the user click on schedule interview'
+DEBUG:parse:format 'the user should see a interview form' -> 'the user should see a interview form'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate and click on shortlist' -> 'the user want to shortlist a newly created candidate and click on shortlist'
+DEBUG:parse:format 'the user click on save shortlist button' -> 'the user click on save shortlist button'
+DEBUG:parse:format 'the user should see x' -> 'the user should see x'
+DEBUG:parse:format 'the user must schedule an interview' -> 'the user must schedule an interview'
+DEBUG:parse:format 'enter valid data and submit form "{title}" "{interviewer}" "{date}"' -> 'enter valid data and submit form "(?P<title>.+?)" "(?P<interviewer>.+?)" "(?P<date>.+?)"'
+DEBUG:parse:format 'the user should see a Successful message' -> 'the user should see a Successful message'
+INFO:root:Starting scenario: Successful schedule interviewer with valid data
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters the frame!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the elements with role option to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+INFO:screenpy:Usuario clicks on the Save candidate button.
+INFO:screenpy:Usuarioxxxx
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the continue process button to appear...
+INFO:screenpy:    Usuario clicks on the continue process button.
+INFO:screenpy:Usuarioxxxx
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the save shortlist button to appear...
+INFO:screenpy:    Usuario clicks on the save shortlist button.
+INFO:screenpy:Usuario create a scedule interview with "title", "interviwer", "date"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [title input]
+ERROR:screenpy:        ***ERROR***
+
+DeliveryError: Encountered an exception using visibility_of_element_located with [title input]: TimeoutException
+INFO:root:Ending scenario: Successful schedule interviewer with valid data
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+DEBUG:parse:format 'the candidate is shortlist' -> 'the candidate is shortlist'
+DEBUG:parse:format 'the user click on schedule interview' -> 'the user click on schedule interview'
+DEBUG:parse:format 'the user should see a interview form' -> 'the user should see a interview form'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate and click on shortlist' -> 'the user want to shortlist a newly created candidate and click on shortlist'
+DEBUG:parse:format 'the user click on save shortlist button' -> 'the user click on save shortlist button'
+DEBUG:parse:format 'the user should see x' -> 'the user should see x'
+DEBUG:parse:format 'the user must schedule an interview' -> 'the user must schedule an interview'
+DEBUG:parse:format 'enter valid data and submit form "{title}" "{interviewer}" "{date}"' -> 'enter valid data and submit form "(?P<title>.+?)" "(?P<interviewer>.+?)" "(?P<date>.+?)"'
+DEBUG:parse:format 'the user should see a Successful message' -> 'the user should see a Successful message'
+INFO:root:Starting scenario: Successful schedule interviewer with valid data
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario is ready for their close-up!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the elements with role option to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+INFO:screenpy:Usuario clicks on the Save candidate button.
+INFO:screenpy:Usuarioxxxx
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the continue process button to appear...
+INFO:screenpy:    Usuario clicks on the continue process button.
+INFO:screenpy:Usuarioxxxx
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the save shortlist button to appear...
+INFO:screenpy:    Usuario clicks on the save shortlist button.
+INFO:screenpy:Usuario create a scedule interview with "title", "interviwer", "date"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [title input]
+ERROR:screenpy:        ***ERROR***
+
+DeliveryError: Encountered an exception using visibility_of_element_located with [title input]: TimeoutException
+INFO:root:Ending scenario: Successful schedule interviewer with valid data
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+DEBUG:parse:format 'the candidate is shortlist' -> 'the candidate is shortlist'
+DEBUG:parse:format 'the user click on schedule interview' -> 'the user click on schedule interview'
+DEBUG:parse:format 'the user should see a interview form' -> 'the user should see a interview form'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate and click on shortlist' -> 'the user want to shortlist a newly created candidate and click on shortlist'
+DEBUG:parse:format 'the user click on save shortlist button' -> 'the user click on save shortlist button'
+DEBUG:parse:format 'the user should see x' -> 'the user should see x'
+DEBUG:parse:format 'the user must schedule an interview' -> 'the user must schedule an interview'
+DEBUG:parse:format 'enter valid data and submit form "{title}" "{interviewer}" "{date}"' -> 'enter valid data and submit form "(?P<title>.+?)" "(?P<interviewer>.+?)" "(?P<date>.+?)"'
+DEBUG:parse:format 'the user should see a Successful message' -> 'the user should see a Successful message'
+INFO:root:Starting scenario: Successful schedule interviewer with valid data
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario gets over their stagefright!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the elements with role option to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+ERROR:screenpy:        ***ERROR***
+
+IndexError: Index 1 out of range. There are 1 available items.
+INFO:root:Ending scenario: Successful schedule interviewer with valid data
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+DEBUG:parse:format 'the candidate is shortlist' -> 'the candidate is shortlist'
+DEBUG:parse:format 'the user click on schedule interview' -> 'the user click on schedule interview'
+DEBUG:parse:format 'the user should see a interview form' -> 'the user should see a interview form'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate and click on shortlist' -> 'the user want to shortlist a newly created candidate and click on shortlist'
+DEBUG:parse:format 'the user click on save shortlist button' -> 'the user click on save shortlist button'
+DEBUG:parse:format 'the user should see x' -> 'the user should see x'
+DEBUG:parse:format 'the user must schedule an interview' -> 'the user must schedule an interview'
+DEBUG:parse:format 'enter valid data and submit form "{title}" "{interviewer}" "{date}"' -> 'enter valid data and submit form "(?P<title>.+?)" "(?P<interviewer>.+?)" "(?P<date>.+?)"'
+DEBUG:parse:format 'the user should see a Successful message' -> 'the user should see a Successful message'
+INFO:root:Starting scenario: Successful schedule interviewer with valid data
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:The camera jump-cuts to Usuario!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the elements with role option to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+INFO:screenpy:Usuario clicks on the Save candidate button.
+INFO:screenpy:Usuarioxxxx
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the continue process button to appear...
+INFO:screenpy:    Usuario clicks on the continue process button.
+INFO:screenpy:Usuarioxxxx
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the save shortlist button to appear...
+INFO:screenpy:    Usuario clicks on the save shortlist button.
+INFO:screenpy:Usuario create a scedule interview with "title", "interviwer", "date"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [title input]
+ERROR:screenpy:        ***ERROR***
+
+DeliveryError: Encountered an exception using visibility_of_element_located with [title input]: TimeoutException
+INFO:root:Ending scenario: Successful schedule interviewer with valid data
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+DEBUG:parse:format 'the candidate is shortlist' -> 'the candidate is shortlist'
+DEBUG:parse:format 'the user click on schedule interview' -> 'the user click on schedule interview'
+DEBUG:parse:format 'the user should see a interview form' -> 'the user should see a interview form'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate and click on shortlist' -> 'the user want to shortlist a newly created candidate and click on shortlist'
+DEBUG:parse:format 'the user click on save shortlist button' -> 'the user click on save shortlist button'
+DEBUG:parse:format 'the user should see x' -> 'the user should see x'
+DEBUG:parse:format 'the user must schedule an interview' -> 'the user must schedule an interview'
+DEBUG:parse:format 'enter valid data and submit form "{title}" "{interviewer}" "{date}"' -> 'enter valid data and submit form "(?P<title>.+?)" "(?P<interviewer>.+?)" "(?P<date>.+?)"'
+DEBUG:parse:format 'the user should see a Successful message' -> 'the user should see a Successful message'
+INFO:root:Starting scenario: Successful schedule interviewer with valid data
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, on a wire!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+ERROR:screenpy:    ***ERROR***
+
+TargetingError: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//ul/li/a[contains(@href,'/recruitment/')]"}
+  (Session info: chrome=128.0.6613.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x007FD933+25811]
+	(No symbol) [0x0078E314]
+	(No symbol) [0x00682523]
+	(No symbol) [0x006C7483]
+	(No symbol) [0x006C765B]
+	(No symbol) [0x00706BA2]
+	(No symbol) [0x006EAD74]
+	(No symbol) [0x007046F0]
+	(No symbol) [0x006EAAC6]
+	(No symbol) [0x006BBEFD]
+	(No symbol) [0x006BC8FD]
+	GetHandleVerifier [0x00ACF143+2981091]
+	GetHandleVerifier [0x00B22FF9+3324825]
+	GetHandleVerifier [0x0088B32F+605903]
+	GetHandleVerifier [0x00892CBC+637020]
+	(No symbol) [0x00796F4D]
+	(No symbol) [0x00793DD8]
+	(No symbol) [0x00793F75]
+	(No symbol) [0x00786406]
+	BaseThreadInitThunk [0x75DA7BA9+25]
+	RtlInitializeExceptionChain [0x773EC11B+107]
+	RtlClearBits [0x773EC09F+191]
+ raised while trying to find Sidebar option.
+INFO:root:Ending scenario: Successful schedule interviewer with valid data

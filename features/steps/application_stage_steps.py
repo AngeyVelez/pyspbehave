@@ -23,4 +23,20 @@ def step_when_shortlist(context):
 def step_then_should_see_form(context):
     assert 1
 
+@given('the candidate is shortlist')
+def step_given_add_candidate(context):
+    context.execute_steps('''
+        Given the user want to shortlist a newly created candidate
+        When the user click on shortlist button
+    ''')
+
+@when('the user click on schedule interview')
+def step_when_shortlist(context):
+    time.sleep(1)
+    context.actor.attempts_to(ClickOnElement(RecruitmentPage.SUCCESS_BTN))
+
+@then('the user should see a interview form')
+def step_then_should_see_form(context):
+    assert 1
+
 

@@ -4,3 +4,8 @@ Feature: Shortlist candidate
     Given the user want to shortlist a newly created candidate
     When the user click on shortlist button
     Then the user should see a shortlist form
+
+  Scenario: Schedule interview
+    Given the candidate is shortlist
+    When the user click on schedule interview
+    Then the user should see a interview form

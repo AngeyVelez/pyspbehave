@@ -3,6 +3,7 @@ from behave import given, when, then
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from screenpy_selenium.actions import Click
+from screenplay.questions.current_url import CurrentURL
 from screenplay.tasks.add_candidate import AddCandidate
 from screenplay.ui.login import LoginPage
 from screenplay.ui.recruitment import RecruitmentPage
@@ -43,6 +44,8 @@ def step_when_save(context):
         Click.on(RecruitmentPage.SAVE_CANDIDATE_BTN)
     )
 
-@then('the user should see a shortlist option')
-def step_then_should_see_shortlist_option(context):
-    assert 1
+@then('the user should see a the candidate profile')
+def step_impl(context):
+    WebDriverWait(context.driver, 1000).until(EC.url_matches(RecruitmentPage.URL_ADD_CANDIDATE_PATTERN))
+    actual_url = CurrentURL.answered_by(context.actor)
+    assert RecruitmentPage.URL_ADD_CANDIDATE_PATTERN in actual_url
