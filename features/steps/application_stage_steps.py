@@ -1,15 +1,6 @@
 import time
-from screenpy import Actor
 from behave import given, when, then
-from screenplay.questions.is_element_visible import IsElementVisible
-from screenplay.questions.current_url import CurrentURL
 from screenplay.tasks.click_on_element import ClickOnElement
-from screenplay.tasks.login import Login
-from screenplay.tasks.shortlist_candidate import ShorlistCandidate
-from screenplay.ui.login import LoginPage
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-
 from screenplay.ui.recruitment import RecruitmentPage
 
 @given('the user want to shortlist a newly created candidate')

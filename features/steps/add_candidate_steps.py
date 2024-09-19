@@ -1,10 +1,8 @@
 import time
 from behave import given, when, then
-from screenpy_selenium import Wait
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from screenpy_selenium.actions import Click
-from screenpy_selenium.questions import Text
 from screenplay.tasks.add_candidate import AddCandidate
 from screenplay.ui.login import LoginPage
 from screenplay.ui.recruitment import RecruitmentPage

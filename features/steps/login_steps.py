@@ -1,6 +1,4 @@
-from screenpy import Actor
 from behave import given, when, then
-from screenplay.questions.is_element_visible import IsElementVisible
 from screenplay.questions.current_url import CurrentURL
 from screenplay.tasks.login import Login
 from screenplay.ui.login import LoginPage

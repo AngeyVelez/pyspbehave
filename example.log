@@ -4014,3 +4014,88 @@ INFO:screenpy:Usuarioxxxx
 INFO:screenpy:    Usuario waits up to 20.0 seconds for the save shortlist button to appear...
 INFO:screenpy:    Usuario clicks on the save shortlist button.
 INFO:root:Ending scenario: Save shorlist candidate
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate and click on shortlist' -> 'the user want to shortlist a newly created candidate and click on shortlist'
+DEBUG:parse:format 'the user click on save shortlist button' -> 'the user click on save shortlist button'
+DEBUG:parse:format 'the user should see x' -> 'the user should see x'
+INFO:root:Starting scenario: Save shorlist candidate
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario arrives on stage!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the elements with role option to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+INFO:screenpy:Usuario clicks on the Save candidate button.
+INFO:screenpy:Usuarioxxxx
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the continue process button to appear...
+INFO:screenpy:    Usuario clicks on the continue process button.
+INFO:screenpy:Usuarioxxxx
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the save shortlist button to appear...
+INFO:screenpy:    Usuario clicks on the save shortlist button.
+INFO:root:Ending scenario: Save shorlist candidate
+DEBUG:parse:format 'the user is logged in as an admin' -> 'the user is logged in as an admin'
+DEBUG:parse:format 'the user navigate to the "Add candidate" section' -> 'the user navigate to the "Add candidate" section'
+DEBUG:parse:format 'the user click on the "Add" button in the module' -> 'the user click on the "Add" button in the module'
+DEBUG:parse:format 'the user fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'the user fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'the user submit the form' -> 'the user submit the form'
+DEBUG:parse:format 'the user should see a shortlist option' -> 'the user should see a shortlist option'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate' -> 'the user want to shortlist a newly created candidate'
+DEBUG:parse:format 'the user click on shortlist button' -> 'the user click on shortlist button'
+DEBUG:parse:format 'the user should see a shortlist form' -> 'the user should see a shortlist form'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+DEBUG:parse:format 'the user want to shortlist a newly created candidate and click on shortlist' -> 'the user want to shortlist a newly created candidate and click on shortlist'
+DEBUG:parse:format 'the user click on save shortlist button' -> 'the user click on save shortlist button'
+DEBUG:parse:format 'the user should see x' -> 'the user should see x'
+INFO:root:Starting scenario: Shortlist a candidate
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario enters, on a wire!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Andrew" into the Full name field.
+INFO:screenpy:    Usuario enters "Gil" into the Lst Name field.
+INFO:screenpy:    Usuario enters "mail@email.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the elements with role option to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el índice 'index' de 'target'
+INFO:screenpy:Usuario clicks on the Save candidate button.
+INFO:screenpy:Usuarioxxxx
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the continue process button to appear...
+INFO:screenpy:    Usuario clicks on the continue process button.
+INFO:root:Ending scenario: Shortlist a candidate
