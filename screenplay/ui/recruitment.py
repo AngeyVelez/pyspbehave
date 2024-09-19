@@ -16,7 +16,8 @@ class RecruitmentPage:
     VACANCY_SELECT = Target.the("Vacancy select").located_by("//div[contains(@class,'oxd-select-text-input')]")
     VACANCY_OPTIONS = Target.the("Vacancy options").located_by("//div[contains(@class,'oxd-select-dropdown')]")
     VACANCY_OPT = Target.the("Vacancy options").located_by("//div[contains(@class,'oxd-select-option')]")
-    OPTIONS = Target.the("elements with role option").located_by((By.CSS_SELECTOR, '[role="option"]'))
 
     CONFIRMATION_MESSAGE = Target.the("confirmation message").located_by("//div[@class='alert alert-success']")
+
+    SHORTLIST_BTN = Target.the("continue process button").located_by("//button[contains(@class, 'oxd-button--success')]")
     

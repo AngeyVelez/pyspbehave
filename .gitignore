@@ -1,0 +1,19 @@
+# Ignore Python cache files
+_pycache_/
+*.py[cod]
+
+# Ignore Jupyter Notebook cache files
+.ipynb_checkpoints/
+
+# Ignore VS Code cache files
+.vscode/
+
+# Ignore cache files from other IDEs
+.idea/
+
+# ignore virtual enviroment
+venv/
+.venv/
+
+# ignore example.log
+.example.log

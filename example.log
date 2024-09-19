@@ -1,7 +1,7 @@
-DEBUG:parse:format 'que el usuario está en la página principal de Google' -> 'que el usuario está en la página principal de Google'
+DEBUG:parse:format 'que el usuario estï¿½ en la pï¿½gina principal de Google' -> 'que el usuario estï¿½ en la pï¿½gina principal de Google'
 DEBUG:parse:format 'el usuario busca "{query}"' -> 'el usuario busca "(?P<query>.+?)"'
-DEBUG:parse:format 'el usuario debería ver resultados de búsqueda' -> 'el usuario debería ver resultados de búsqueda'
-INFO:root:Starting scenario: Realizar una búsqueda en Google
+DEBUG:parse:format 'el usuario deberï¿½a ver resultados de bï¿½squeda' -> 'el usuario deberï¿½a ver resultados de bï¿½squeda'
+INFO:root:Starting scenario: Realizar una bï¿½squeda en Google
 INFO:WDM:====== WebDriver manager ======
 INFO:WDM:Get LATEST chromedriver version for google-chrome
 INFO:WDM:Get LATEST chromedriver version for google-chrome
@@ -11,7 +11,7 @@ INFO:screenpy:Usuario searches Google for "Screenplay Pattern"
 INFO:screenpy:    Usuario enters "Screenplay Pattern" into the Google search bar.
 INFO:screenpy:        then hits the ENTER key
 INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Google search results]
-INFO:root:Ending scenario: Realizar una búsqueda en Google
+INFO:root:Ending scenario: Realizar una bï¿½squeda en Google
 DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
 DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
 DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
@@ -1855,7 +1855,7 @@ INFO:screenpy:Usuario clicks on the Add candidate button.
 INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
 ERROR:screenpy:    ***ERROR***
 
-AttributeError: 'AddRecruitment' object has no attribute 'uses_the_browser'
+AttributeError: 'AddCandidate' object has no attribute 'uses_the_browser'
 INFO:root:Ending scenario: Add candidate successfully
 DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
 DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
@@ -1909,7 +1909,7 @@ INFO:screenpy:Usuario clicks on the Add candidate button.
 INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
 ERROR:screenpy:    ***ERROR***
 
-AttributeError: 'AddRecruitment' object has no attribute 'uses_the_browser'
+AttributeError: 'AddCandidate' object has no attribute 'uses_the_browser'
 INFO:root:Ending scenario: Add candidate successfully
 DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
 DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
@@ -2412,4 +2412,67 @@ INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to ap
 ERROR:screenpy:    ***ERROR***
 
 IndexError: Replacement index 1 out of range for positional args tuple
+INFO:root:Ending scenario: Add candidate successfully
+DEBUG:parse:format 'I am logged in as an admin' -> 'I am logged in as an admin'
+DEBUG:parse:format 'I navigate to the "Add candidate" section' -> 'I navigate to the "Add candidate" section'
+DEBUG:parse:format 'I click on the "Add" button in the module' -> 'I click on the "Add" button in the module'
+DEBUG:parse:format 'I fill out the candidate form with the following details: "{fullname}" "{lastname}" "{email}"' -> 'I fill out the candidate form with the following details: "(?P<fullname>.+?)" "(?P<lastname>.+?)" "(?P<email>.+?)"'
+DEBUG:parse:format 'I submit the form' -> 'I submit the form'
+DEBUG:parse:format 'I should see a confirmation message that the candidate was added successfully' -> 'I should see a confirmation message that the candidate was added successfully'
+DEBUG:parse:format 'the user is on the Google homepage' -> 'the user is on the Google homepage'
+DEBUG:parse:format 'the user searches for "{query}"' -> 'the user searches for "(?P<query>.+?)"'
+DEBUG:parse:format 'the user should see search results' -> 'the user should see search results'
+INFO:root:Starting scenario: Add candidate successfully
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Get LATEST chromedriver version for google-chrome
+INFO:WDM:Driver [C:\Users\angey\.wdm\drivers\chromedriver\win64\128.0.6613.137\chromedriver-win32/chromedriver.exe] found in cache
+INFO:screenpy:Usuario is ready for their close-up!
+INFO:screenpy:Usuario login with "username", "password"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Username input]
+INFO:screenpy:    Usuario enters "Admin" into the Username input.
+INFO:screenpy:    Usuario enters "admin123" into the Password input.
+INFO:screenpy:    Usuario clicks on the Login button.
+INFO:screenpy:Usuario clicks on the Sidebar option.
+INFO:screenpy:Usuario clicks on the Add candidate button.
+INFO:screenpy:Usuario add candidate with "fullname", "lastname", "email"
+INFO:screenpy:    Usuario waits up to 20.0 seconds using visibility_of_element_located with [Full name field]
+INFO:screenpy:    Usuario enters "Carlos" into the Full name field.
+INFO:screenpy:    Usuario enters "Rodriguez" into the Lst Name field.
+INFO:screenpy:    Usuario enters "carlos@correo.com" into the Email field.
+INFO:screenpy:    Usuario clicks on the Vacancy select.
+INFO:screenpy:    Usuario waits up to 20.0 seconds for the Vacancy options to appear...
+INFO:screenpy:    Usuario hace clic en el elemento en el ï¿½ndice 'index' de 'target'
+INFO:screenpy:        Usuario lists off the elements with role option.
+INFO:screenpy:            => <[<selenium.webdriver.remote.webelement.WebElement (session="3db9a839d5816bf099830bde71a7d03c", element="f.495D38F2F7F0B976774F6DD1709D03D8.d.F60FE6BA7814938CFC0B6465B294EFD7.e.149")>, <selenium.webdriver.remote.webelement.WebElement (session="3db9a839d5816bf099830bde71a7d03c", element="f.495D38F2F7F0B976774F6DD1709D03D8.d.F60FE6BA7814938CFC0B6465B294EFD7.e.150")>, <selenium.webdriver.remote.webelement.WebElement (session="3db9a839d5816bf099830bde71a7d03c", element="f.495D38F2F7F0B976774F6DD1709D03D8.d.F60FE6BA7814938CFC0B6465B294EFD7.e.151")>, <selenium.webdriver.remote.webelement.WebElement (session="3db9a839d5816bf099830bde71a7d03c", element="f.495D38F2F7F0B976774F6DD1709D03D8.d.F60FE6BA7814938CFC0B6465B294EFD7.e.152")>, <selenium.webdriver.remote.webelement.WebElement (session="3db9a839d5816bf099830bde71a7d03c", element="f.495D38F2F7F0B976774F6DD1709D03D8.d.F60FE6BA7814938CFC0B6465B294EFD7.e.153")>, <selenium.webdriver.remote.webelement.WebElement (session="3db9a839d5816bf099830bde71a7d03c", element="f.495D38F2F7F0B976774F6DD1709D03D8.d.F60FE6BA7814938CFC0B6465B294EFD7.e.154")>, <selenium.webdriver.remote.webelement.WebElement (session="3db9a839d5816bf099830bde71a7d03c", element="f.495D38F2F7F0B976774F6DD1709D03D8.d.F60FE6BA7814938CFC0B6465B294EFD7.e.155")>, <selenium.webdriver.remote.webelement.WebElement (session="3db9a839d5816bf099830bde71a7d03c", element="f.495D38F2F7F0B976774F6DD1709D03D8.d.F60FE6BA7814938CFC0B6465B294EFD7.e.156")>]>
+INFO:screenpy:    Usuario clicks on the Save candidate button.
+INFO:screenpy:Usuario clicks on the Save candidate button.
+ERROR:screenpy:    ***ERROR***
+
+TargetingError: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@type='submit']"}
+  (Session info: chrome=128.0.6613.138); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0057D933+25811]
+	(No symbol) [0x0050E314]
+	(No symbol) [0x00402523]
+	(No symbol) [0x00447483]
+	(No symbol) [0x0044765B]
+	(No symbol) [0x00486BA2]
+	(No symbol) [0x0046AD74]
+	(No symbol) [0x004846F0]
+	(No symbol) [0x0046AAC6]
+	(No symbol) [0x0043BEFD]
+	(No symbol) [0x0043C8FD]
+	GetHandleVerifier [0x0084F143+2981091]
+	GetHandleVerifier [0x008A2FF9+3324825]
+	GetHandleVerifier [0x0060B32F+605903]
+	GetHandleVerifier [0x00612CBC+637020]
+	(No symbol) [0x00516F4D]
+	(No symbol) [0x00513DD8]
+	(No symbol) [0x00513F75]
+	(No symbol) [0x00506406]
+	BaseThreadInitThunk [0x760A7BA9+25]
+	RtlInitializeExceptionChain [0x7754C11B+107]
+	RtlClearBits [0x7754C09F+191]
+ raised while trying to find Save candidate button.
 INFO:root:Ending scenario: Add candidate successfully
